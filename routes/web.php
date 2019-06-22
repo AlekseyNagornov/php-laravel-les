@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about', 'AboutController@getAboutPage');
+
+Route::get('/contacts', 'ContactsController@getContactsName');
